@@ -1,0 +1,11 @@
+{
+  "name": "openbuild-js-core",
+  "version": "0.1",
+  "main": ["dataservice.js"],
+  "dependencies": {
+	"durandal" : ">=2",
+	"jquery" : ">=1.9 <=2.0",
+	"toastr": ">=2",
+	"web-socket-js": ">=1"
+  }
+}
