@@ -21,7 +21,7 @@ define(['durandal/app', 'toastr', 'jquery'], function(app, toastr, jquery){
 			
 			var wsOpen = function(){
 			
-				wsConnection = new WebSocket('ws://danny-lewiss-macbook-air.local:8129');
+				wsConnection = new WebSocket(window.WEB_SOCKET_URI);
 			
 				wsConnection.onopen = function(event){
 
